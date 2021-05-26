@@ -1,0 +1,134 @@
+h2 {
+  font-family: Arial, Verdana;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #091f2f;
+  text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #13a2b7;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 3rem;
+  content: "\f106";
+  color: #13a2b7;
+  float: right;
+  margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+}
+
+.testimonials {
+  overflow: hidden;
+  background: #f2f7f8;
+  padding-bottom: 90px;
+}
+
+.testimonials .section-title {
+  margin-bottom: 15px;
+}
+
+.testimonial__item {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 61, 85, 0.1);
+  box-shadow: 0px 5px 20px rgba(0, 61, 85, 0.1);
+  border-radius: 10px;
+  position: relative;
+  padding: 40px 40px 30px 40px;
+}
+
+.testimonial__item .rating {
+  position: absolute;
+  right: 40px;
+  top: 52px;
+}
+
+.testimonial__item .rating i {
+  font-size: 13px;
+  color: #e4c870;
+}
+
+.testimonial__item p {
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.testimonial__author {
+  overflow: hidden;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+}
+
+.testimonial__author__icon {
+  height: 50px;
+  width: 50px;
+  background: #13a2b7;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.testimonial__author__text {
+  overflow: hidden;
+  padding-top: 4px;
+}
+
+.testimonial__author__text h5 {
+  color: #111111;
+  font-weight: 600;
+}
+
+.testimonial__author__text span {
+  font-size: 13px;
+  color: #888888;
+}
+
+.testimonial__slider .col-lg-6 {
+  max-width: 100%;
+}
+
+.testimonial__slider.owl-carousel .owl-stage-outer {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  overflow: visible;
+}
+
+.testimonial__slider .owl-dots {
+  text-align: center;
+}
+
+.testimonial__slider .owl-dots button {
+  height: 10px;
+  width: 10px;
+  background: #d2d2d2;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.testimonial__slider .owl-dots button.active {
+  background: #9c9c9c;
+}
+
+.testimonial__slider .owl-dots button:last-child {
+  margin-right: 0;
+}
